@@ -1,0 +1,160 @@
+.portrait {
+	border-radius: 50%;
+	background-image: url('../img/portrait.png');
+	background-position-x: -7px; 
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}
+
+.div--profil {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.profil {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.navbar {
+	height: 100%;
+	background-color: #282828;
+	position: absolute;
+	width: 18%;
+	z-index: 9;
+}
+
+.navbar-item {
+	width: 100%;
+	color: white;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 0.8;
+	border-bottom: 1px solid rgba(255,255,255, 0.8);
+	padding-left: 40px;
+	padding-right: 2px;
+	border-radius: 0;
+	-webkit-transition: padding-left 1s, background-color 1s, width 1s, -webkit-transform 1s;
+
+
+	&:hover {
+		opacity: 1;
+		width: 100% + 15%;
+		background-color: #282828;
+		padding-left: 65px;
+		padding-right: 25px;
+		-webkit-transform:skew(-30deg);
+	}
+}
+.navbar-item p {
+	-webkit-transition: -webkit-transform 1s;
+	-webkit-transform:skew(0deg);
+}
+.navbar-item p:hover {
+	-webkit-transition: -webkit-transform 1s;
+	-webkit-transform:skew(30deg);
+}
+
+.PSactive {
+	-webkit-transition: padding-left 1s, background-color 1s, width 1s, -webkit-transform 1s;
+	background-color: rgba(68, 68, 68, 0.8);
+	border-bottom: 1px solid rgb(191,57,34);
+}
+
+.contact {
+	color: white;
+}
+
+.contactMe {
+	margin-top: 50px;
+	padding: 8px;
+	border: 2px solid #282828;
+
+	&:hover {
+		border: 2px solid white;
+	}
+}
+
+@media only screen and (max-width: 850px) {	
+	.navbar-nav:first-child {
+		display: none;
+	}
+	.list--profil, .portrait, .profil {
+		display: none;
+	}
+
+
+	.navbar-icon
+	{
+		position: relative;
+		display: block;
+		float: left;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		margin: auto 0;
+
+
+		&:after
+		{
+			content: "";
+			position: absolute;
+			display: block;
+			width: 16px;
+			height: 0px;
+			left: 15px;
+			top: 5px;
+
+			box-shadow: 0 10px 0 1px white,
+			0 16px 0 1px white,
+			0 22px 0 1px white;
+			z-index: 99;
+		}
+	}
+	.navbar {
+		width: 100%;
+		height: 50px;
+		z-index: 9;
+	}
+
+	.navbar-nav
+	{
+		background-color: #282828;
+		position: relative;
+		display: block;
+		left: 0;
+		top: 0;
+		width: 100%;
+		transform: translateY(-355px);
+		z-index: 1;
+		
+
+		li 
+		{
+			display: block;
+			padding: 5px;
+			background-color: #282828;
+			border-bottom: 1px solid white;
+			padding-left: 150px;
+
+			&:hover {
+				padding-left: 175px;
+			}
+		}
+	}
+	.sidebar
+	{
+		.navbar-nav
+		{
+			transform: translateY(-11px);
+		}
+	}
+}
+

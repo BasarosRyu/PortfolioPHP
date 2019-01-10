@@ -1,0 +1,33 @@
+.slider-container {
+	width: 82%;
+	height: 100%;
+	margin-left: 18%;
+	position: absolute;
+}
+
+.pageSlide {
+	display: none;
+}
+
+.PSactive {
+	display:block;
+}
+
+.contain-page {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+@media only screen and (max-width: 850px) {	
+	.slider-container {
+		padding-top: 50px;
+		margin-left: 0%;
+		width: 100%;
+		z-index: 5;
+	}
+}
+
+

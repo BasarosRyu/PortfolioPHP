@@ -1,0 +1,53 @@
+#pageAbout {
+	height: 100%;
+	padding-top: -10px;
+	background: url('../img/fondAbout.png') no-repeat;
+	opacity: 0.9;
+	background-size: cover;
+}
+
+.about-title {
+	font-family: 'Capture it';
+	text-shadow: 4px 4px 4px rgba(250,250,250, 0.2) ;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.desc-li {
+	width: 100px;
+	margin-right: 5px;
+
+}
+.about-pro-profil {
+	width: 40%;
+	position: absolute;
+	left: 120px;
+	bottom: 80px;
+	color: white;
+	text-align: justify;
+}
+
+.about-desc {
+	position: absolute;
+	right: 150px;
+	top: 60px;
+	color: white;
+	text-align: left;
+	& ul li {
+		display: flex;
+		list-style: none;
+		padding: 5px;
+	}
+}
+
+
+@media only screen and (max-width: 850px) {	
+	.contain-page {
+		width: 100%;
+	}
+
+	#pageAbout {
+		background-size: cover;
+
+	}
+}

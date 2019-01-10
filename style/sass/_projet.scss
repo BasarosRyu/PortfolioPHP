@@ -1,0 +1,128 @@
+#pageMyProject {
+	height: 100%;
+	padding-top: -20px;
+	background: url('../img/fondProjet.png') no-repeat;
+	opacity: 0.9;
+	background-size: cover;
+}
+
+.tab-list
+{
+	display: flex;
+	padding-top: 50px;
+}
+
+.tab-list li {
+	list-style: none;
+	padding: 0 10px;
+	color: white;
+}
+
+.tab-pane
+{
+	width: 90%;
+	padding: 5px;
+	display: none;
+	color: white;
+	text-align: justify;
+}
+
+.active 
+{
+	display:block;
+	height: 100%;
+	text-align: justify;
+}
+
+
+.tab-content
+{
+	padding: 10px;
+	text-align: justify;
+	width: 100%;
+	height: 90%;
+	border-top: 2px solid #04416e;
+}
+
+
+.project-title {
+	font-family: 'Capture it';
+	text-shadow: 4px 4px 4px rgba(250,250,250, 0.2);
+	margin-bottom: 15px;
+	margin-left: 75px;
+}
+
+.text-desc {
+	padding: 15px;
+	margin-bottom: 50px;
+}
+
+.puissance4-a {
+	text-decoration: none;
+	margin-left: 150px;
+	border: 2px solid white;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+#puissance4:hover {
+	border: 3px solid #04416e;
+}
+
+.imgscreen 
+{
+	width: 50%;
+	float: left;
+	margin: 15px;
+}
+
+.text-desc a {
+	text-decoration: none;
+
+	&:hover {
+		color: #04416e;
+	}
+}
+
+.text-desc ul li {
+	list-style: none;
+	padding-left: 20px;
+}
+
+
+.tab-list .active {
+	background-color: white;
+	color: #04416e;
+	z-index: 99;
+	text-align: center;
+	margin-right: -40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 1;
+}
+
+
+
+.onglet-item {
+	background-color: #04416e;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px 15px 0 0;
+	z-index: 9;
+	opacity: 0.8;
+	text-align: center;
+	margin-right: -40px;
+}
+
+#github {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+@media only screen and (max-width: 850px) {	
+	.contain-page {
+		width: 100%;
+	}
+}

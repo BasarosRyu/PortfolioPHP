@@ -1,0 +1,92 @@
+#pageContact {
+	height: 100%;
+	padding-top: -10px;
+	background: url('../img/fondContact.png') no-repeat;
+	opacity: 0.9;
+	background-size: cover;
+}
+
+.contact-title {
+	font-family: 'Capture it';
+	text-shadow: 4px 4px 4px rgba(250,250,250, 0.2);
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.contact-form {
+	width: 40%;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	color: white;
+	text-align: left;
+}
+
+
+.form {
+	width: 100%;
+}
+
+.part-form {
+	width: 100%;
+	height: 30px;
+	margin: 5px 0;
+	color: black;
+	background-color: white;
+	padding: 2px;
+
+	&:hover {
+		background-color: #a9adb4;
+	}
+}
+
+#msg-form {
+	width: 100%;
+	height: 150px;
+	margin: 5px 0;
+	color: black;
+	padding: auto 2px;
+	background-color: white;
+
+	&:hover {
+		background-color: #a9adb4;
+		border: 1px solid #a9adb4;
+	}
+}
+
+.submit-form {
+	width: 100%;
+	margin: 5px 0;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+}
+
+#result {
+	text-align: center;
+	padding: 5px 0;
+}
+
+#envoyer:hover {
+	background-color: #a9adb4;
+	border: 1px solid #a9adb4;
+}
+
+#result {
+	display: none;
+}
+
+@media only screen and (max-width: 850px) {	
+	.contain-page {
+		width: 100%;
+	}
+
+	#pageContact {
+		background-size: cover;
+	}
+
+	.contact-form {
+
+	}
+}

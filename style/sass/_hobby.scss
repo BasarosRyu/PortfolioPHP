@@ -1,0 +1,53 @@
+#pageHobby {
+	height: 100%;
+	padding-top: -10px;
+	background: url('../img/fondHobby.png') no-repeat;
+	opacity: 0.9;
+	background-size: cover;
+}
+
+.hobby-title {
+	font-family: 'Capture it';
+	text-shadow: 4px 4px 4px rgba(250,250,250, 0.2);
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.hobby-desc {
+	width: 40%;
+	position: absolute;
+	left: 150px;
+	top: 60px;
+	color: white;
+	text-align: justify;
+
+	& p {
+		font-size: 0.9em;
+		line-height: 1.8;
+	}
+}
+
+.hobby-lang {
+	position: absolute;
+	right: 150px;
+	bottom: 60px;
+	color: white;
+	text-align: justify;
+}
+
+@media only screen and (max-width: 850px) {	
+	.contain-page {
+		width: 100%;
+	}
+
+	#pageHobby {
+		background-size: cover;
+	}
+
+	.hobby-desc {
+		width: 60%;
+		height: 30%;
+		overflow: auto;
+		padding: 15px;
+	}
+}

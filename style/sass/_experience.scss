@@ -1,0 +1,103 @@
+#pageExp {
+	height: 100%;
+	padding-top: -10px;
+	background: url('../img/fondExp.png') no-repeat;
+	opacity: 0.9;
+	background-size: cover;
+}
+
+.exp-comp {
+	position: absolute;
+	right: 20%;
+	top: 150px;
+	color: white;
+
+	& ul li {
+		list-style: none;
+		display: flex;
+		padding: 5px;
+	}
+}
+
+.comp-list {
+	width: 150px;
+	text-align: left;
+}
+
+.barre-total {
+	width: 150px;
+	margin-left: 10px;
+	background-color: #8097a4;
+}
+
+
+#barre-comp1 {
+	width: 80%;
+	background-color: #014660;
+	color: #014660;
+}
+
+
+#barre-comp3 {
+	width: 70%;
+	background-color: #014660;
+	color: #014660;
+}
+
+#barre-comp4 {
+	width: 70%;
+	background-color: #014660;
+	color: #014660;
+}
+
+#barre-comp5 {
+	width: 70%;
+	background-color: #014660;
+	color: #014660;
+}
+
+#barre-comp6 {
+	width: 25%;
+	background-color: #014660;
+	color: #014660;
+}
+
+.exp-title {
+	font-family: 'Capture it';
+	text-shadow: 4px 4px 4px rgba(250,250,250, 0.2) ;
+	margin-bottom: 15px;
+}
+
+.exp-list {
+	position: absolute;
+	left: 150px;
+	bottom: 120px;
+	color: white;
+	text-align: left;
+	& ul li {
+		list-style: none;
+	}
+}
+
+
+.other-list
+{
+	display: none;
+	position: relative;
+	background-color: #282828;
+	border-radius: 5px;
+	color: white;
+	padding: 2px 5px;
+	text-align: left;
+}
+
+@media only screen and (max-width: 850px) {	
+	.contain-page {
+		width: 100%;
+	}
+
+	#pageExp {
+		background-size: cover;
+
+	}
+}

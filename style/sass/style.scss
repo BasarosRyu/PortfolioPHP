@@ -1,0 +1,38 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+/*------------------*\
+Grille
+\*------------------*/
+
+@import "grille";
+
+
+/*------------------*\
+Navbar
+\*------------------*/
+
+@import "navbar";
+
+/*------------------*\
+Slider
+\*------------------*/
+
+@import "slider";
+
+/*------------------*\
+Contenu Slider
+\*------------------*/
+
+@import "accueil";
+@import "about";
+@import "experience";
+@import "hobby";
+@import "coor1";
+@import "contact";
+@import "projet";
