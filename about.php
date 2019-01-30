@@ -3,7 +3,7 @@
 
 		<div class="about-pro-profil">
 			<h1 class="about-title">Mon profil professionnel</h1>
-			Je n'ai pour l'heure aucune techno précise en tête à l'heure actuelle. Aucune chouchoute qui m'inviterait à me spécialiser. Néanmoins, je ne suis jamais contre la découverte d'un nouveau langage pour aider à développer mes compétences, que ce soit en front ou en back.
+			Je n'ai pour l'heure aucune techno précise en tête à l'heure actuelle. Néanmoins, je ne suis jamais contre la découverte d'un nouveau langage pour aider à développer mes compétences, que ce soit en front ou en back. Reste que pour mon objectif, ma préférence ira là où je peux apprendre à créer des jeux...
 		</div>
 		<div class="about-desc">
 			<h1 class="about-title">Petite présentation </h1>
