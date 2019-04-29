@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/css/style.css" />
+	<meta name="keywords" content="portfolio, réseau social, wac, web@cademie, webacademie">
+	<link href="http://fr.allfont.net/allfont.css?fonts=capture-it" rel="stylesheet" type="text/css" />
+
+	<title>Portfolio</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<a href="#" class="navbar-icon" id="navbar-icon"></a>
+			<div class="div--profil">
+				<div class="portrait"></div>
+				<span class="profil">Jérôme Cyrus
+					<br/> Développeur Web
+				</span>
+			</div>
+			<ul class="navbar-nav">
+				<li class="navbar-item" data-target="#pageAccueil"><p>Accueil</p></li>
+				<li class="navbar-item" data-target="#pageAbout"><p>A Propos</p></li>
+				<li class="navbar-item" data-target="#pageCoordonnees"><p>Mes Coordonnées</p></li>
+				<li class="navbar-item" data-target="#pageExp"><p>Expériences</p></li>
+				<li class="navbar-item" data-target="#pageMyProject"><p>Mes projets</p></li>
+				<li class="navbar-item" data-target="#pageHobby"><p>Mes centres d'intérêts</p></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="slider-container">
+
+			<div class="pageSlide PSactive" id="pageAccueil">
+				<div class="contain-page">
+					<div class="accueil-title">
+						<h1 id="accueil-title-p">Portfolio</h1>
+					</div>
+					<div class="accueil-descrip">
+						<p>
+							Réalisé avec HTML, SASS, JQUERY
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- ------------------------------------ Partie About ------------------------------------ -->
+			<div class="pageSlide" id="pageAbout">
+				<div class="contain-page">
+
+					<div class="about-pro-profil">
+						<h1 class="about-title">Mon profil professionnel</h1>
+						Je n'ai pour l'heure aucune techno précise en tête à l'heure actuelle. Aucune chouchoute qui m'inviterait à me spécialiser. Néanmoins, je ne suis jamais contre la découverte d'un nouveau langage pour aider à développer mes compétences, que ce soit en front ou en back.
+					</div>
+					<div class="about-desc">
+						<h1 class="about-title">Petite présentation </h1>
+						<ul>
+							<li><span class="desc-li">Né le  : </span> 1er Juin 1992</li>
+							<li><span class="desc-li">Email : </span> jeromecyrus92@gmail.com</li>
+							<li><span class="desc-li">Nationalité : </span> Française</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- ------------------------------------ Partie coordonnes ------------------------------------ -->
+			<div class="pageSlide" id="pageCoordonnees">
+				<div class="contain-page">
+					<div class="coor-desc">
+						<h1 class="coortitle">Comment me joindre</h1>
+						<ul>
+							<li><span class="info">Mail pro : </span> jeromecyrus92@gmail.com</li>
+							<li><span class="info">Mail étudiant :</span> jerome.cyrus@epitech.eu</li>
+							<li><span class="info">Téléphone : </span> 06 11 12 72 01</li>
+							<li><span class="info">Linkedin : </span> https://www.linkedin.com/in/jerome-cyrus/</li>
+						</ul>
+					</div>
+					<div class="coor-cv">
+						CV disponible : <a href="cvJeromeCyrus.pdf" target="_blank"> ici </a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ------------------------------------ Partie expériences ------------------------------------ -->
+			<div class="pageSlide" id="pageExp">
+				<div class="contain-page">
+					<div class="exp-list">
+						<h1 class="exp-title">Mes Parcours</h1>
+						<ul>
+							<li>Stage en Boulangerie</li>
+							<li>Fin d'étude : Première S</li>
+							<li>Vacation à la DRFIP IDF</li>
+							<li>Formation Développeur Web</li>
+							<li>Assistant pédagogique</li>
+						</ul>
+					</div>
+					<div class="exp-comp">
+						<h1 class="exp-title">Mes Compétences Web</h1>
+						<ul>
+							<li><span class="comp-list">HTML/CSS : </span> <div class="barre-total"><div id="barre-comp1">...</div></div></li>
+							<li><span class="comp-list">PHP : </span> <div class="barre-total"><div id="barre-comp3">...</div></div></li>
+							<li><span class="comp-list">Javascript : </span> <div class="barre-total"><div id="barre-comp4">...</div></div></li>
+							<li><span class="comp-list">Mysql : </span> <div class="barre-total"><div id="barre-comp5">...</div></div></li>
+							<li><span class="comp-list" id="framework">Divers Framework : </span> <div class="barre-total"><div id="barre-comp6">...</div></div></li>
+							<li><span class="other-list"><em>Utilisations et connaissances de : </em>
+								<br/>Jquery, Bootstrap, SASS, AngularJS,
+								<br/> AJAX, ReactJS, NodeJS</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- ------------------------------------ Partie projets ------------------------------------ -->
+				<div class="pageSlide" id="pageMyProject">
+					<div class="contain-page">
+
+						<div id="github"><a href="https://github.com/JeromeCyrus" target="_blank">Mon GitHub</a></div>
+						<div class="menu-onglet">
+							<nav>
+								<ul class="tab-list">
+									<li class="onglet-item active" data-target="#first">Puissance 4</li>
+									<li class="onglet-item" data-target="#second">Tweet Academie</li>
+									<li class="onglet-item" data-target="#three">My Meetic</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane active" id="first">
+								<a href="Puissance4/testpuissance4.html" target="_blank">
+									<img src="style/img/puissance4.png" alt="screen puissance 4" class="imgscreen" id="puissance4"/>
+								</a>
+								<div class="text-desc">
+									<h1 class="project-title">PUISSANCE 4</h1> 
+									<p>
+										L'un de nos projet était de réaliser un Puissance 4 en Javascript. Pour se faire, nous avions une semaine...
+									</p>
+									<p>
+										Jouable en local à 2 ou contre une IA pas très intelligente qui vous permettra néanmoins de vous entrainer un peu !
+									</p>
+									<br/>
+									<p>
+										Réalisé à l'aide de Jquery.
+									</p>
+								</div>
+								<a href="Puissance4/testpuissance4.html" class="puissance4-a" target="_blank">Une petite partie ?</a>
+							</div>
+							<div class="tab-pane" id="second">
+								<img src="style/img/tweetco.png" alt="screen page connexion Tweet acadamie" class="imgscreen"/>
+								<div class="text-desc">
+									<h1 class="project-title">Tweet Academie</h1> 
+									<p>
+										Un projet à réaliser en groupe en l'espace de 2 semaines. Un groupe appelé solennellement : « #La Revanche des Tweets ».
+									</p>
+									<br/>
+									<p>
+										Réalisé à l'aide de PHP, HTML/CSS, Mysql, Bootstrap, Jquery.
+									</p>
+									<br/>
+									Quelques screens : 
+
+									<ul>
+										<li><a href="style/img/tweetco.png" target="_blank"> - Page d'accueil</a></li>
+										<li><a href="style/img/tweetprofil.png" target="_blank">- Page de profil</a></li>
+										<li><a href="style/img/tweetmessage.png" target="_blank">- Page de messagerie privée</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane" id="three">
+								<a href="style/img/mymeeticchat.png" target="_blank">
+									<img src="style/img/mymeeticchat.png" alt="screen my meetic chat" class="imgscreen"/>
+								</a>
+								<div class="text-desc">
+									<h1 class="project-title">My Meetic</h1>
+									<p>
+										Un Meetic Like qu'il a fallu réaliser en deux semaines.
+									</p>
+									<p>
+										Vous pourrez retrouver de nombreuses fonctionnalités de Meetic en plus... Réduites.
+									</p>
+									<br/>
+									<p>
+										Réalisé à l'aide de PHP, HTML/CSS, Mysql, Jquery.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ------------------------------------ Partie Hobby ------------------------------------ -->
+				<div class="pageSlide" id="pageHobby">
+					<div class="contain-page">
+						<div class="hobby-desc">
+							<h1 class="hobby-title">Mes loisirs</h1>
+							<p>
+								Grand fan de <em>jeux vidéos</em>, depuis quelques années, je ne compte plus le nombre d'heures durant lesquelles j'ai pu jouer. Ni le nombre de jeux. En solo ou en multi, mais surtout en multi !
+							</p>
+							<p>
+								Mais le jeu vidéo n'est pas ma seule passion. Amateur de <em>cinéma</em>, nombreux sont les films et les séries que j'ai pu regarder une ou plusieurs fois. Sans oublier les mangas, manhwas ou webtoons.
+							</p>
+							<p>
+								Moins connu du grand public, les <em>forums RPG</em> font aussi partis de mes passe-temps préférés. Créer et incarner un personnage un peu différemment d'un jeu vidéo est toujours intéressant !
+							</p>
+						</div>
+
+						<div class="hobby-lang">
+							<h1 class="hobby-title">Surveille ton langage !</h1>
+							<p>
+								Français : Que ce soit un format pdf ou mp3, je comprends tout parfaitement ! 
+							</p>
+							<p>
+								Anglais : Que ce soit un format pdf ou mp3, je comprends parfois, un peu...
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</main>
+		<script src="js/jquery.js"></script>
+		<script src="js/navbar.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/formContact.js"></script>
+		<script src="js/infobulles.js"></script>
+		<script src="js/projet.js"></script>
+	</body>
+	</html>
